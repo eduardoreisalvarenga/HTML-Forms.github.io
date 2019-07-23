@@ -48,57 +48,81 @@ div span a:link {
     display: inline;
     width: 35px;
 }
-/* Container containing the information about client */
+
+/* Container for the form and its elements */
 .form-container {
     text-align: center;
     margin: 10px auto 0 auto;
-    width: 340px;
+    width: 370px;
     background-color: white;
-    border: 1px solid grey;
+    border: 1px solid lightgray;
 }
 
-/* Accessing learn more*/
+/* Selector for learn more link */
 div a:link {
     text-decoration: none;
+    font-size: 11px;
+    color: #0077C5;
 }
 
-/* h1 signin on form */
-.signin-form {
-    font-weight: 200;
-    color: #777;
-    text-align: center;
+/* Selector for learn more link when user hovers */
+div a:link:hover {
+    text-decoration-line: underline;
 }
-/* text information upper part form */
+
+/* Selector for h1 sign in on form */
+.signin-form {
+    font-weight: 350;
+    color: #4C4C4C;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+/* Selector for text below Sing in header */
 .form-text {
     text-align: center;
-    font-size: 14px;
+    font-size: 13px;
     color: #777;
+    font-weight: 300;
 }
 
-/* all labels inside form */
+/* Selector for labels inside the form */
 label {
     text-align: left;
     display: inline-block;
     margin-right: 180px;
     margin-bottom: 10px;
+    margin-top: 34px;
     width: 120px;
+    font-weight: 300;
+    font-size: 14px;
+    color: #404040;
 }
-/* all inputs inside form */
+/* Selector for inputs inside the form */
 input {
+    width: 80%;
+    height: 30px;
     display: block;
-    margin-left: 15px;
-    margin-bottom: 25px;
+    margin-left: 36px;
+    border-radius: 2px;
+    border: 1px solid #C1C5C8;
 }
 
-/* Checkbox inside form */
+/* Selector for checkbox inside the form */
 .form-checkbox {
     display: inline;
     background: orange;
-    margin-right: 5px;
+    float: left;
+    margin-top: 34px;
+    width: 19px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
-/* Remember me label inside form */
+/* Selector for Remember me label inside form */
 .form-remember {
     position: relative;
-    bottom: 2px;
+    top: 7px;
+    right: 4px;
+    font-weight: 400;
 }

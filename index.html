@@ -1,56 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" type="text/css" href="normalize.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Intuit Like Form Page</title>
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <!--<div class="container">-->
-        <div class="logo-container">
-          <img class="main-logo" src="images/img_logo.png" alt="The logo of intuiti">
-        </div>
-        <div class="menu-container">
-            <img class="menu-logo" src="images/ic_mint.png" alt="Mint logo">
-            <span class="menu-item"><a href="#">mint</a></span>
-            <img class="menu-logo" src="images/ic_quickbooks.png" alt="Mint logo">
-            <span class="menu-item"><a href="#">quickbooks</a></span>
-            <img class="menu-logo" src="images/ic_turbotax.png" alt="Mint logo">
-            <span class="menu-item"><a href="#">turbotax</a></span>
-        </div>    
-        <div class="form-container">    
-            <h1 class="signin-form">Sign In</h1>
-            <p class="form-text">One account for everything Intuit. Including Mint.</p>
-            <a href="#">Learn more</a>
-            <form action="#" method="POST">
-                <label for="email">Email or user ID</label>
-                <input type="email" id="email">
-                <label for="passoword">Password</label>
-                <input type="password" id="password">
-                <input type="checkbox" class="form-checkbox" id="checkbox">
-                <label for="checkbox" class="form-remember"> Remember me</label>
-                <button>Sign In</button>
-                <p>By clicking Sign In, you agree to our
-                Terms and have read and acknowledge our Privacy Statement.
-                </p>   
-                <a href="">I forgot my user ID or password</a>
-                <p>New to Intuit? <a href="">Create an account.</a></p>
-                <footer>
-                    <small>Invisible reCAPTCHA by Google <a href="">Privacy Policy</a> 
-                        and <a href="">Terms of Use</a>. </small>
-                </footer>         
-            </form>
-        </div>
-        <footer>
-            <p> <a href="">Legal</a> <a href="">Privacy</a>  <a href="">Security</a></p>
-            <small>
-                ©  2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
-                Terms and conditions, features, support, pricing, and service options subject to change without notice.
-            </small>
-        </footer>
-    <!--</div>>-->
+    <!-- Logo Container Start -->
+    <div class="logo-container">
+        <img class="main-logo" src="images/img_logo.png" alt="The logo of intuiti">
+    </div>
+    <!-- Logo Container End -->
+    <!-- Menu Container Start -->
+    <div class="menu-container">
+        <img class="menu-logo" src="images/ic_mint.png" alt="Mint logo">
+        <span class="menu-item"><a href="#">mint</a></span>
+        <img class="menu-logo" src="images/ic_quickbooks.png" alt="Mint logo">
+        <span class="menu-item"><a href="#">quickbooks</a></span>
+        <img class="menu-logo" src="images/ic_turbotax.png" alt="Mint logo">
+        <span class="menu-item"><a href="#">turbotax</a></span>
+    </div>
+    <!-- Menu Container End -->  
+    <!-- Form Container Start -->  
+    <div class="form-container">    
+        <h1 class="signin-form">Sign In</h1>
+        <p class="form-text">One account for everything Intuit, including Mint.</p>
+        <a href="#">Learn more</a>
+        <!-- Form Start -->
+        <form action="#" method="POST">
+            <label for="email">Email or user ID</label>
+            <input type="email" id="email">
+            <label for="passoword">Password</label>
+            <input type="password" id="password">
+            <input type="checkbox" class="form-checkbox" id="checkbox">
+            <label for="checkbox" class="form-remember">Remember me</label>
+            <button>Sign In</button>
+            <p>By clicking Sign In, you agree to our
+            Terms and have read and acknowledge our Privacy Statement.
+            </p>   
+            <a href="">I forgot my user ID or password</a>
+            <p>New to Intuit? <a href="">Create an account.</a></p>
+            <footer>
+                <small>Invisible reCAPTCHA by Google <a href="">Privacy Policy</a> 
+                    and <a href="">Terms of Use</a>. </small>
+            </footer>         
+        </form>
+        <!-- Form End -->
+    </div>
+    <!-- Form Container End -->  
+    <footer>
+        <p> <a href="">Legal</a> <a href="">Privacy</a>  <a href="">Security</a></p>
+        <small>
+            ©  2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
+            Terms and conditions, features, support, pricing, and service options subject to change without notice.
+        </small>
+    </footer>
 </body>
 </html>
