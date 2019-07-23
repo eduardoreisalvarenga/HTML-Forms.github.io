@@ -126,3 +126,31 @@ input {
     right: 4px;
     font-weight: 400;
 }
+
+/* Selector for the Sign In button container */
+.button-container {
+    position: relative;
+}
+
+/* Selector for the Sign In button */
+.sign-in-button {
+    width: 80%;
+    height: 42px;
+    background-color: #0077C5;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-top: 24px;
+    position: relative;
+    right: 28px;
+    font-weight: 300;
+}
+
+/* Selector for the padlock icon used in the Sign In button */
+.padlock-icon {
+    width: 16px;
+    position: absolute;
+    top: 37px;
+    left: 148px;
+    z-index: 10;
+}
