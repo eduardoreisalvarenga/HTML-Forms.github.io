@@ -1,18 +1,50 @@
+/* Reset default margin and padding */
 * {
     margin: 0;
     padding: 0;
 }
 
+/* Selector for the body of HTML */
 body {
     background-color: #ECEEF1;
 }
 
+/* Container for the image which displays the logo of the company */
 .logo-container {
-    background-color: orange;
     margin-top: 14px;
 }
 
+/* The logo of the company itself */
 .main-logo {
-    width: 150px;
+    width: 138px;
     margin: 0 auto;
+    display: block;
+}
+
+/* Selector for the div containing the elements below the main logo */
+.menu-container {
+    text-align: center;
+    margin-top: 6px;
+}
+
+/* Selector for the text items below the main logo */
+.menu-item {
+    display: inline; 
+    font-size: 20px;
+    position: relative;
+    bottom: 10px;
+}    
+
+/* Selector for the link items */
+div span a:link {
+    text-decoration: none;
+    color: #777;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 300;
+}
+
+/* Selector for icons below the main logo */
+.menu-logo {
+    display: inline;
+    width: 35px;
 }
