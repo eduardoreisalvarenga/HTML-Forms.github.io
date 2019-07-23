@@ -7,6 +7,7 @@
 /* Selector for the body of HTML */
 body {
     background-color: #ECEEF1;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 /* Container for the image which displays the logo of the company */
@@ -39,7 +40,6 @@ body {
 div span a:link {
     text-decoration: none;
     color: #777;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 300;
 }
 
@@ -47,4 +47,58 @@ div span a:link {
 .menu-logo {
     display: inline;
     width: 35px;
+}
+/* Container containing the information about client */
+.form-container {
+    text-align: center;
+    margin: 10px auto 0 auto;
+    width: 340px;
+    background-color: white;
+    border: 1px solid grey;
+}
+
+/* Accessing learn more*/
+div a:link {
+    text-decoration: none;
+}
+
+/* h1 signin on form */
+.signin-form {
+    font-weight: 200;
+    color: #777;
+    text-align: center;
+}
+/* text information upper part form */
+.form-text {
+    text-align: center;
+    font-size: 14px;
+    color: #777;
+}
+
+/* all labels inside form */
+label {
+    text-align: left;
+    display: inline-block;
+    margin-right: 180px;
+    margin-bottom: 10px;
+    width: 120px;
+}
+/* all inputs inside form */
+input {
+    display: block;
+    margin-left: 15px;
+    margin-bottom: 25px;
+}
+
+/* Checkbox inside form */
+.form-checkbox {
+    display: inline;
+    background: orange;
+    margin-right: 5px;
+}
+
+/* Remember me label inside form */
+.form-remember {
+    position: relative;
+    bottom: 2px;
 }
