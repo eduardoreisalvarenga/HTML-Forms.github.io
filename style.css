@@ -10,42 +10,42 @@ body {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
-/* Container wich contains 2 paragraphs/top */
+/* Selector for the container which contains 2 paragraphs/top */
 .top-information-container {
     display: block;
     text-align: right;
 }
 
-/* Top paragraph close sign in */
+/* Selector for top paragraph near sign in */
 .paragraph-top {
     font-size: 12px;
     color: #505050;
     line-height: 1.5;
+    font-weight: 300;
 }
 
-/* Top link recover password or ID */
+/* Selector for top link recover password or ID text */
 .paragraph-top a:link {
     font-size: 12px;
 }
 
-/* Container which contains the 2 top paragraphs*/
+/* Selector for container which contains the 2 top paragraphs */
 .signin-text-container {
     position: absolute;
     top: 13px;
-    right: 150px;
+    right: 144px;
 }
 
-/* Container containing button */
+/* Selector for the container for the Sign In button */
 .signin-button-container {
     display: inline;
     width: 150px;
-    
 }
 
-/* Top button Sign in */
+/* Selector for top Sign In button */
 .sign-in-button {
-    width: 110px;
-    height: 36px;
+    width: 104px;
+    height: 34px;
     background-color: #0077C5;
     color: white;
     border: none;
@@ -53,23 +53,26 @@ body {
     position: relative;
     right: 28px;
     font-weight: 300;
+    font-size: 14px;
     margin-bottom: 10px;
     margin-top: 12px;
+    border: 1px solid #4c4c4c;
 }
 
-/* Font awseome lock/ Top Button */
+/* Selector for font awseome padlock/ Top Button */
 .fas {
     color: white;
-    margin-right: 5px;
+    margin-right: 10px;
+    width: 10px;
 }
 
-/* Container for the image which displays the logo of the company */
+/* Selector for the container for the image which displays the logo of the company */
 .logo-container {
     display: block;
     margin-top: 14px;
 }
 
-/* The logo of the company itself */
+/* Selector for the logo of the company itself */
 .main-logo {
     width: 138px;
     margin: 0 auto;
@@ -106,8 +109,8 @@ div span a:link {
 
 /* Container for the form and its elements */
 .form-container {
-    width: 370px;
-    height: 708px;
+    width: 380px;
+    height: 640px;
     position: relative;
     text-align: center;
     margin: 10px auto 0 auto;
@@ -156,6 +159,13 @@ label {
     font-size: 14px;
     color: #404040;
 }
+
+/* Selector for the Pssword label above the password input */
+.password-label {
+    position: relative;
+    left: 14px;
+}
+
 /* Selector for inputs inside the form */
 input {
     padding-left: 10px;
@@ -173,7 +183,8 @@ input {
     display: inline;
     position: relative;
     top: 36px;
-    right: 8px;
+    right: 10px;
+    width: 18px;
 }
 
 /* Selector for small tags */
@@ -182,23 +193,6 @@ small {
     font-size: 10px;
     position: relative;
     right: 36px;
-}
-
-/* Selector for checkbox inside the form */
-.form-checkbox {
-    display: inline;
-    float: left;
-    margin-top: 32px;
-    width: 19px;
-    
-}
-
-/* Selector for Remember me label inside form */
-.form-remember {
-    position: relative;
-    top: 5px;
-    right: 4px;
-    font-weight: 400;
 }
 
 /* Selector for the Sign In button container */
@@ -214,9 +208,7 @@ small {
     color: white;
     border: none;
     border-radius: 4px;
-    margin-top: 26px;
-    position: relative;
-    right: 28px;
+    margin-top: 32px;
     font-weight: 300;
     margin-bottom: 10px;
 }
@@ -225,7 +217,7 @@ small {
 .padlock-icon {
     width: 16px;
     position: absolute;
-    top: 39px;
+    top: 45px;
     left: 118px;
     z-index: 10;
 }
@@ -236,7 +228,7 @@ small {
     font-size: 12px;
     display: block;
     font-style: italic;
-    margin-top: 32px;
+    margin-top: 16px;
     font-weight: 350;
     line-height: 18px;
 }
@@ -253,7 +245,7 @@ p.create-account a {
 
 /* Selector for the footer inside the form section */
 .form-footer {
-    width: 370px;
+    width: 380px;
     height: 52px;
     font-size: 12px;
     color: #777;
@@ -317,4 +309,3 @@ body footer.main-footer div span.footer-terms {
     bottom: 4px;
     padding-bottom: 18px;
 }
-
