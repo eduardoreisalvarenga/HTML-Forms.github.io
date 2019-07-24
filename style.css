@@ -231,6 +231,7 @@ footer.form-footer span.footer-captcha {
 footer.form-footer span.footer-captcha a:link {
     font-size: 10px;
     font-weight: 300;
+    color: #0077C5;
 }
 
 /* Selector for main footer outside form */
