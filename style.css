@@ -41,6 +41,7 @@ div span a:link {
     text-decoration: none;
     color: #777;
     font-weight: 300;
+    font-size: 19px;
 }
 
 /* Selector for icons below the main logo */
@@ -51,13 +52,13 @@ div span a:link {
 
 /* Container for the form and its elements */
 .form-container {
+    width: 370px;
+    height: 654px;
     position: relative;
     text-align: center;
     margin: 10px auto 0 auto;
-    width: 370px;
     background-color: white;
     border: 1px solid lightgray;
-    height: 650px;
 }
 
 /* Selector for learn more link */
@@ -116,7 +117,7 @@ input {
 .form-checkbox {
     display: inline;
     float: left;
-    margin-top: 34px;
+    margin-top: 32px;
     width: 19px;
     
 }
@@ -124,7 +125,7 @@ input {
 /* Selector for Remember me label inside form */
 .form-remember {
     position: relative;
-    top: 7px;
+    top: 5px;
     right: 4px;
     font-weight: 400;
 }
@@ -142,7 +143,7 @@ input {
     color: white;
     border: none;
     border-radius: 4px;
-    margin-top: 24px;
+    margin-top: 26px;
     position: relative;
     right: 28px;
     font-weight: 300;
@@ -153,64 +154,83 @@ input {
 .padlock-icon {
     width: 16px;
     position: absolute;
-    top: 37px;
-    left: 148px;
+    top: 39px;
+    left: 147px;
     z-index: 10;
 }
 
-/* Selector for the terms bellow sign button*/
+/* Selector for the terms bellow Sign In button */
 .form-text-bottom {
     color: #777;
     font-size: 12px;
     display: block;
+    font-style: italic;
+    margin-top: 2px;
+    font-weight: 350;
+    line-height: 18px;
 }
 
-/*Selector for the recover passowrd link inside the form*/
-#recover-password {
-    margin-top: 200px;
-    text-align: center;
-    font-size: 16px;
+/* Selector for the links in the terms below Sign In Button */
+.form-text-bottom a:link {
+    font-size: 12px;
 }
 
- /* Container containing information about how to recover password or to create a new account */
+ /* Selector for the container which has information about how to recover password or to create a new account */
 .recover-container {
     display: inline-block;
-    width: 300px;
-    margin-top: 20px;
+    width: 80%;
+    margin-top: 15px;
     padding-top: 15px;
     border-top: 1px solid #eee;
 }
 
-/* Selector for the footer inside the form */
+/* Selector for the recover password link inside the form section */
+#recover-password {
+    margin-top: 200px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+/* Selector for create account text inside recover-container */
+.create-account {
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+/* Selector for create an account link */
+p.create-account a {
+    font-size: 14px;
+}
+
+/* Selector for the footer inside the form section */
 .form-footer {
     width: 370px;
-    height: 50px;
+    height: 52px;
     font-size: 12px;
     color: #777;
     font-weight: 200;
-    border: 1px solid lightgray;
+    border-left: none;
     display: block;
     position: absolute;
     bottom: 0;
+    left: 0;
     background-color: #ECEEF1;
 }
 
 /* Selector for invisible captcha text */
 footer.form-footer span.footer-captcha {
     position: relative;
-    top: 18px;
+    top: 20px;
     font-size: 10px;
+    font-weight: 300;
 }
 
-/* Selector for create account link inside recover-container */
-.create-account {
-    margin-top: 15px;
-    font-size: 15px;
-}
-
-/* Selector for create an account link */
-p.create-account a {
-    font-size: 15px;
+/* Selector for invisible captcha links */
+footer.form-footer span.footer-captcha a:link {
+    font-size: 10px;
+    font-weight: 300;
 }
 
 /* Selector for main footer outside form */
@@ -222,27 +242,30 @@ p.create-account a {
     color: #777;
 }
 
+/* Selector for span containing terms links */
+footer.main-footer div.terms-container span {
+    margin: 0 5px;
+}
+
+/* Selector for legal, privacy, security links */
+footer.main-footer div.terms-container span a {
+    font-size: 12px;
+    color: #505050;
+    font-weight: 300;
+}
+
 /* Selector for terms, inside terms-container */
 body footer.main-footer div span.footer-terms {
     display: inline-block;
     font-size: 30px;  
 }
 
-/* Selector for terms links */
-footer.main-footer div.terms-container span a {
-    font-size: 13px;
-    margin-bottom: 0 5px;
-    padding-bottom: 0;
-
-}
-
-/* selector for span containing terms links */
-footer.main-footer div.terms-container span {
-    margin: 0 5px;
-}
-
-/* selector for the text on the main footer */
+/* Selector for the text on the main footer */
 .text-footer {
-    font-size: 13px;
-    
+    font-size: 12px;
+    color: #505050;
+    font-weight: 300;
+    position: relative;
+    bottom: 4px;
+    padding-bottom: 18px;
 }
