@@ -10,6 +10,16 @@
         <link rel="shortcut icon" href="images/ic_fav.png" type="image/x-icon">
     </head>
     <body>
+        <!-- Top Right Corner Content Start -->
+        <div>
+            <p>Already have an Intuit account?</p>
+            <p><a href="#">I forgot my User ID or Password </a></p>
+            <div>
+                <img src="images/ic_padlock.svg" alt="A padlock icon">
+                <button>Sign In</button>
+            </div>
+        </div>
+        <!-- Top Right Corner Content End -->
         <!-- Logo Container Start -->
         <div class="logo-container">
             <img class="main-logo" src="images/img_logo.png" alt="The logo of intuiti">
@@ -32,15 +42,18 @@
             <a href="#">Learn more</a>
             <!-- Form Start -->
             <form action="#" method="POST">
-                <label for="email">Email or user ID</label>
+                <label for="email">Email address</label>
                 <input type="email" id="email" required>
+                <label for="phone">Phone (recommended)</label>
+                <input type="tel" id="phone" required>
+                <small>Standard call, messaging or data rates may apply.</small>
                 <label for="password">Password</label>
                 <input type="password" id="password" required>
                 <input type="checkbox" class="form-checkbox" id="checkbox">
                 <label for="checkbox" class="form-remember">Remember me</label>  
                 <div class="button-container">
                     <img class="padlock-icon" src="images/ic_padlock.svg" alt="Lock in the Sign In Button">
-                    <button class="sign-in-button">&nbsp;&nbsp;&nbsp;&nbsp;Sign In</button>   
+                    <button class="sign-in-button">&nbsp;&nbsp;&nbsp;&nbsp;Create Account</button>   
                 </div>
             </form>
             <!-- Form End -->
@@ -48,10 +61,6 @@
                 <a href="#">Terms</a> and have read and acknowledge our <a href="#">Privacy<br>
                     Statement.</a>
             </p>
-            <div class="recover-container">
-                <a href="#" id="recover-password">I forgot my user ID or password</a>
-                <p class="create-account">New to Intuit? <a href="#">Create an account</a>.</p>
-            </div>
             <footer class="form-footer">
                 <span class="footer-captcha">Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> 
                     and <a href="#">Terms of Use</a>.
