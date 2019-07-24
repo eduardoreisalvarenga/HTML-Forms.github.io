@@ -7,6 +7,7 @@
     <title>Intuit Like Form Page</title>
     <link rel="stylesheet" type="text/css" href="normalize.css">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" href="images/ic_fav.png" type="image/x-icon">
 </head>
 <body>
     <!-- Logo Container Start -->
@@ -43,23 +44,29 @@
             </div>
         </form>
         <!-- Form End -->
-        <p>By clicking Sign In, you agree to our
-        Terms and have read and acknowledge our Privacy Statement.
+        <p class="form-text-bottom">By clicking Sign In, you agree to our</p>
+        <p class="form-text-bottom"><a href="">Terms</a> and have read and acknowledge our <a href="">Privacy Statement.</a></p>    
         </p>   
-        <a href="">I forgot my user ID or password</a>
-        <p>New to Intuit? <a href="">Create an account.</a></p>
-        <footer>
-            <small>Invisible reCAPTCHA by Google <a href="">Privacy Policy</a> 
-                and <a href="">Terms of Use</a>. </small>
+        <div class="recover-container">
+            <a href="" id="recover-password">I forgot my user ID or password</a>
+            <p class="create-account">New to Intuit? <a href="">Create an account.</a></p>
+        </div>
+        <footer class="form-footer">
+            <span class="footer-captcha">Invisible reCAPTCHA by Google <a href="">Privacy Policy</a> 
+                and <a href="">Terms of Use</a>. </span>
         </footer>   
     </div>
     <!-- Form Container End -->  
-    <footer>
-        <p> <a href="">Legal</a> <a href="">Privacy</a>  <a href="">Security</a></p>
-        <small>
+    <footer class="main-footer">
+        <div class="terms-container">
+            <span class="footer-terms"><a href="">Legal</a></span> 
+            <span class="footer-terms"><a href="">Privacy</a></span>
+            <span class="footer-terms"><a href="">Security</a></span>
+        </div>
+        <span class="text-footer">
             ©  2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
             Terms and conditions, features, support, pricing, and service options subject to change without notice.
-        </small>
+        </span>
     </footer>
 </body>
 </html>
