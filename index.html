@@ -8,15 +8,18 @@
         <link rel="stylesheet" type="text/css" href="normalize.css">
         <link rel="stylesheet" type="text/css" href="style.css">
         <link rel="shortcut icon" href="images/ic_fav.png" type="image/x-icon">
+        <script src="https://kit.fontawesome.com/ebaeaa9ace.js"></script>
     </head>
     <body>
         <!-- Top Right Corner Content Start -->
-        <div>
-            <p>Already have an Intuit account?</p>
-            <p><a href="#">I forgot my User ID or Password </a></p>
-            <div>
-                <img src="images/ic_padlock.svg" alt="A padlock icon">
-                <button>Sign In</button>
+        <div class="top-information-container">
+            <div class="signin-text-container">
+                <p class="paragraph-top">Already have an Intuit account?<br>
+                    <a href="#">I forgot my User ID or Password </a>
+                </p>
+            </div>
+            <div class="signin-button-container">
+                <button class="sign-in-button"><i class="fas fa-lock"></i>Sign In</button>
             </div>
         </div>
         <!-- Top Right Corner Content End -->
@@ -48,12 +51,13 @@
                 <input type="tel" id="phone" required>
                 <small>Standard call, messaging or data rates may apply.</small>
                 <label for="password">Password</label>
+                <i class="fas fa-unlock-alt"></i>
                 <input type="password" id="password" required>
                 <input type="checkbox" class="form-checkbox" id="checkbox">
                 <label for="checkbox" class="form-remember">Remember me</label>  
                 <div class="button-container">
                     <img class="padlock-icon" src="images/ic_padlock.svg" alt="Lock in the Sign In Button">
-                    <button class="sign-in-button">&nbsp;&nbsp;&nbsp;&nbsp;Create Account</button>   
+                    <button class="create-account-button">&nbsp;&nbsp;&nbsp;&nbsp;Create Account</button>   
                 </div>
             </form>
             <!-- Form End -->
