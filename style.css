@@ -1,0 +1,311 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Selector for the body of HTML */
+body {
+    background-color: #ECEEF1;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+/* Selector for the container which contains 2 paragraphs/top */
+.top-information-container {
+    display: block;
+    text-align: right;
+}
+
+/* Selector for top paragraph near sign in */
+.paragraph-top {
+    font-size: 12px;
+    color: #505050;
+    line-height: 1.5;
+    font-weight: 300;
+}
+
+/* Selector for top link recover password or ID text */
+.paragraph-top a:link {
+    font-size: 12px;
+}
+
+/* Selector for container which contains the 2 top paragraphs */
+.signin-text-container {
+    position: absolute;
+    top: 13px;
+    right: 144px;
+}
+
+/* Selector for the container for the Sign In button */
+.signin-button-container {
+    display: inline;
+    width: 150px;
+}
+
+/* Selector for top Sign In button */
+.sign-in-button {
+    width: 104px;
+    height: 34px;
+    background-color: #0077C5;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    position: relative;
+    right: 28px;
+    font-weight: 300;
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-top: 12px;
+    border: 1px solid #4c4c4c;
+}
+
+/* Selector for font awseome padlock/ Top Button */
+.fas {
+    color: white;
+    margin-right: 10px;
+    width: 10px;
+}
+
+/* Selector for the container for the image which displays the logo of the company */
+.logo-container {
+    display: block;
+    margin-top: 14px;
+}
+
+/* Selector for the logo of the company itself */
+.main-logo {
+    width: 138px;
+    margin: 0 auto;
+    display: block;
+}
+
+/* Selector for the div containing the elements below the main logo */
+.menu-container {
+    text-align: center;
+    margin-top: 6px;
+}
+
+/* Selector for the text items below the main logo */
+.menu-item {
+    display: inline; 
+    font-size: 20px;
+    position: relative;
+    bottom: 10px;
+}    
+
+/* Selector for the link items */
+div span a:link {
+    text-decoration: none;
+    color: #777;
+    font-weight: 300;
+    font-size: 19px;
+}
+
+/* Selector for icons below the main logo */
+.menu-logo {
+    display: inline;
+    width: 35px;
+}
+
+/* Container for the form and its elements */
+.form-container {
+    width: 380px;
+    height: 640px;
+    position: relative;
+    text-align: center;
+    margin: 10px auto 0 auto;
+    background-color: white;
+    border: 1px solid lightgray;
+}
+
+/* Selector for learn more link */
+div a:link {
+    text-decoration: none;
+    font-size: 11px;
+    color: #0077C5;
+}
+
+/* Selector for learn more link when user hovers */
+div a:link:hover {
+    text-decoration-line: underline;
+}
+
+/* Selector for h1 sign in on form */
+.signin-form {
+    font-weight: 350;
+    color: #4C4C4C;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+/* Selector for text below Sing in header */
+.form-text {
+    text-align: center;
+    font-size: 13px;
+    color: #777;
+    font-weight: 300;
+}
+
+/* Selector for labels inside the form */
+label {
+    width: 140px;
+    text-align: left;
+    display: inline-block;
+    margin-right: 160px;
+    margin-bottom: 10px;
+    margin-top: 34px;
+    font-weight: 300;
+    font-size: 14px;
+    color: #404040;
+}
+
+/* Selector for the Pssword label above the password input */
+.password-label {
+    position: relative;
+    left: 14px;
+}
+
+/* Selector for inputs inside the form */
+input {
+    padding-left: 10px;
+    width: 80%;
+    height: 30px;
+    display: block;
+    margin-left: 36px;
+    border-radius: 2px;
+    border: 1px solid #C1C5C8;
+}
+
+/* Selector for the lock on the input password field */
+.fa-unlock-alt {
+    color: #D3D3D3;
+    display: inline;
+    position: relative;
+    top: 36px;
+    right: 10px;
+    width: 18px;
+}
+
+/* Selector for small tags */
+small {
+    color: #444;
+    font-size: 10px;
+    position: relative;
+    right: 36px;
+}
+
+/* Selector for the Sign In button container */
+.button-container {
+    position: relative;
+}
+
+/* Selector for the Sign In button */
+.create-account-button {
+    width: 80%;
+    height: 42px;
+    background-color: #0077C5;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-top: 32px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+/* Selector for the padlock icon used in the Sign In button */
+.padlock-icon {
+    width: 16px;
+    position: absolute;
+    top: 45px;
+    left: 118px;
+    z-index: 10;
+}
+
+/* Selector for the terms bellow Sign In button */
+.form-text-bottom {
+    color: #777;
+    font-size: 12px;
+    display: block;
+    font-style: italic;
+    margin-top: 16px;
+    font-weight: 350;
+    line-height: 18px;
+}
+
+/* Selector for the links in the terms below Sign In Button */
+.form-text-bottom a:link {
+    font-size: 12px;
+}
+
+/* Selector for create an account link */
+p.create-account a {
+    font-size: 14px;
+}
+
+/* Selector for the footer inside the form section */
+.form-footer {
+    width: 380px;
+    height: 52px;
+    font-size: 12px;
+    color: #777;
+    font-weight: 200;
+    border-left: none;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #ECEEF1;
+}
+
+/* Selector for invisible captcha text */
+footer.form-footer span.footer-captcha {
+    position: relative;
+    top: 20px;
+    font-size: 10px;
+    font-weight: 300;
+}
+
+/* Selector for invisible captcha links */
+footer.form-footer span.footer-captcha a:link {
+    font-size: 10px;
+    font-weight: 300;
+    color: #0077C5;
+}
+
+/* Selector for main footer outside form */
+.main-footer {
+    text-align: center;
+    width: 800px;
+    margin: auto;
+    margin-top: 10px;
+    color: #777;
+}
+
+/* Selector for span containing terms links */
+footer.main-footer div.terms-container span {
+    margin: 0 2px;
+}
+
+/* Selector for legal, privacy, security links */
+footer.main-footer div.terms-container span a {
+    font-size: 12px;
+    color: #505050;
+    font-weight: 300;
+}
+
+/* Selector for terms, inside terms-container */
+body footer.main-footer div span.footer-terms {
+    display: inline-block;
+    font-size: 30px;  
+}
+
+/* Selector for the text on the main footer */
+.text-footer {
+    font-size: 12px;
+    color: #505050;
+    font-weight: 300;
+    position: relative;
+    bottom: 4px;
+    padding-bottom: 18px;
+}
